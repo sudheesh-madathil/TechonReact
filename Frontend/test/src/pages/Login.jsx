@@ -44,7 +44,7 @@ navi("/landing")
         <button type="submit">Login</button>
 
         <p className="auth-footer">
-          Don’t have an account? <span>Register</span>
+          Don’t have an account? <span onClick={ ()=>navi("/")}>Register</span>
         </p>
       </form>
     </div>

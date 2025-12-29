@@ -25,8 +25,7 @@ function Register() {
       alert("Registration failed",err);
     }
   };
-//   const handillogin =()=>{
-//     navi("/login")
+
 
 
   return (
@@ -59,9 +58,16 @@ function Register() {
 
         <button type="submit">Register</button>
 
-        <p className="auth-footer">
-          Already have an account? <span>Login</span>
-        </p>
+   <p className="auth-footer">
+  Already have an account?{" "}
+  <span
+    style={{ color: "blue", cursor: "pointer" }}
+    onClick={() => navi("/login")}
+  >
+    Login
+  </span>
+</p>
+
       </form>
     </div>
   );
