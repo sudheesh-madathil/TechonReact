@@ -1,0 +1,36 @@
+.landing {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.landing h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #111827;
+}
+
+.landing p {
+  color: #4b5563;
+  font-size: 16px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.features {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 14px;
+  background: #f9fafb;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
